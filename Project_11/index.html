@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+
+  <h1>TO LOG OFF, EXIT THE BROWSER</h1>
+
+  <div id="main">
+    <!-- Create Div First For Login Form -->
+    <div id="first">
+      <form id= "login-form">
+        <input type="text" id="loginusername" placeholder="Username to login" />
+        <input type="password" id="loginpassword" placeholder="Password to login" />
+        <label>Sign in if you have an account!</label>
+        <button type= "submit" >Sign in</button> 
+    </form>
+    <p id="two">Don't have account? <a class="signup" href="#" id="signup">Sign up here</a></p>
+    </form>
+    </div>
+    <!-- Create Div Second For Signup Form-->
+    <div id="second">
+        <form id= "signup-form">
+            <input type="text" id="signupusename" placeholder="Type in username to signup" />
+            <input type="password" id="signuppassword" placeholder="Password for signup" />
+            <label>Sign up if you don't have an account!</label>
+            <label>Signing up means you can post and send messages!</label>
+            <button type= "submit" >Sign Up</button>
+            <p id="two">Already have an account? <a class="signin" href="#" id="signin">Sign in</a></p>
+        </form>
+      </div>
+
+
+
+
+</div>
+  <div id="content">
+    <h3>Create a post</h3>
+    <form id="post-form" >
+      <label for="ptitle">Post Title</label>
+      <input type="text" id="post-title" >
+      <label for="post-price">Price</label>
+      <input type="text" id="post-price" >
+      <label for="post-description">Post Description</label>
+      <textarea id="post-description" columns="40" rows="5"></textarea>
+      <button type ="submit"> Create Post </button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+<h3>Search all post titles</h3>
+<input id="myInput" type="text" placeholder="Search..">
+<br><br>
+<div id="appontheDOM"></div>
+  
+</script>
+
+</body>
+</html>
